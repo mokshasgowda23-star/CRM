@@ -1,0 +1,5 @@
+{
+  "deal": { "id": "123456789", "properties": { "dealname": "Annual Platform License", "amount": "12500", "dealstage": "closedwon", "pipeline": "default", "closedate": "2026-11-06T10:00:00Z", "deal_currency_code": "USD" } },
+  "contact": { "id": "501", "properties": { "firstname": "Priya", "lastname": "Sharma", "email": "priya@acme-robotics.example", "phone": "+1 555 0100" } },
+  "company": { "id": "9001", "properties": { "name": "Acme Robotics Demo", "domain": "acme-robotics.example" } }
+}

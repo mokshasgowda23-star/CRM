@@ -1,0 +1,19 @@
+{
+  "name": "hubspot-qbo-sync",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=20.6"
+  },
+  "scripts": {
+    "start": "node --env-file=.env src/server.js",
+    "dev": "node --watch --env-file=.env src/server.js",
+    "simulate": "node --env-file=.env scripts/send-sample-webhook.js"
+  },
+  "dependencies": {
+    "better-sqlite3": "^13.0.3",
+    "express": "^5.3.0",
+    "pino": "^10.4.0"
+  }
+}
